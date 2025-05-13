@@ -72,6 +72,7 @@ return {
           ttl = 5 * 60,
           indent = 3,
         },
+        { pane = 2, section = "header" },
         { section = "startup" },
       },
     },
