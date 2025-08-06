@@ -4,7 +4,12 @@ return {
   vscode = false,
   priority = 1000,
   opts = {
-    transparent = true,
+    transparent = false,
+    fzf_colors = {
+      true,
+      bg = "-1",
+      gutter = "-1",
+    },
   },
   config = function(_, opts)
     local eldritch = require("eldritch")
